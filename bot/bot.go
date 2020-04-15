@@ -80,7 +80,7 @@ func start(token, triggerWord string) {
 
 			for _, v := range messages {
 				if v != message.MessageID {
-					_, err := vk.MessagesEdit(api.Params{"peer_id": message.PeerID, "message_id": v, "message": "&#9999991;"})
+					_, err := vk.MessagesEdit(api.Params{"peer_id": message.PeerID, "message_id": v, "message": "⚠️удалено⚠️"})
 					if err == nil {
 						count++
 						log.Printf("Edited %v message\n", count)
