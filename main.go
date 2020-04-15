@@ -15,7 +15,7 @@ func main() {
 
 	accounts := map[string]string{
 		// "token": "keyWord",
-		"addbff29de1c7adb5b9dbc20cbb95a9cd22e4da38235220af230e0b6f46f872fb6a65afe2650abbfa9cab": "del", // Это пример, поля не должны быть пустыми!!!
+		"3439ba6cce7d15993687e092daf191f5b9b465f81c1741d2f4f67b6c65c04538f6b80ac6daf1a22ff33af": "дд", // Это пример, поля не должны быть пустыми!!!
 	}
 
 	// Функция запуска аккаунтов
